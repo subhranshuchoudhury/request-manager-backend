@@ -20,7 +20,7 @@ const Role = db.role;
 
 console.log("🔗 Connecting to MongoDB...");
 db.mongoose
-  .connect(`${process.env.DB_URL}`, {
+  .connect(`${dbConfig.URL}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

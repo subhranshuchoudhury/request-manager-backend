@@ -1,3 +1,3 @@
 module.exports = {
-  URL: `${process.env.DB_URL}`,
+  URL: `mongodb+srv://subhranshu:subhranshu@cluster0.zxwok9x.mongodb.net/?retryWrites=true&w=majority`,
 };
