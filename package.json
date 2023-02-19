@@ -2,7 +2,7 @@
   "name": "requestmanagerbackend",
   "version": "1.0.0",
   "description": "Backend for Codex request manager",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
